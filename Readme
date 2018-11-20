@@ -1,6 +1,7 @@
 This is a semestral project work. 
 The idea was to create a web application that allows football fan s around the world to suggest the best football player.
-A fan select a player he or she thinks outperformed others by filling and submitting the form 
+A fan select a player he or she thinks outperformed others by filling and submitting the form
+At the end of the voting process, all players can be arranged and displayed according to the number of votes.
 
 
 
