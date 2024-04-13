@@ -4,22 +4,17 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Add code to build code here'
+        sh 'echo "Add code to build code here"'
     }
     stage('Test') {
       steps {
-        echo 'Add code to test your project here'
+        sh 'echo "Add code to test your project here"'
       }
     }
     stage('Deploy') {
       steps {
-          echo 'Add code to deploy to environment'
+        sh 'echo "Add code to deploy to environment"'
       }
-    }
-  }
-  post {
-    always {
-      echo "The end!!"
     }
   }
 }
