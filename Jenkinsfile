@@ -20,6 +20,7 @@ pipeline {
   }
   post {
     always {
+      echo "This block will always run"
       echo "The end!!"
     }
   }
